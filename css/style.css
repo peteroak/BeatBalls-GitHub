@@ -252,12 +252,14 @@ color: #F5A62E;
 	background:#fafafa;
 }
 
+
+
 /*features area*/
 .features img{
 	margin:auto;
 	display: block;
 	margin-bottom: 50px;
-   
+  
 }
 .features i.fa{
 	font-size: 25px;
