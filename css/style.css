@@ -100,8 +100,9 @@ p{
 .header{
 	text-align:center;
 	background-color: #FFFFFF; 
-    height: 100vh;
-    width: auto;
+    height: 100%;
+    width: 100%;
+    background: url(../img/site%201.jpg)  no-repeat ;
 }
 .logo{
 	width:430px;
@@ -128,7 +129,7 @@ p{
 	display:inline-block;
 	font-family: 'Montserrat',sans-serif;
 	font-size:14px;
-	color: #bcbcbc;
+	color: #fff;
 	text-transform: uppercase;
 	font-weight: 400;
 	margin:0 0px 0 0;
@@ -159,11 +160,12 @@ color: #F5A62E;
 	border-radius:3px;
 	text-transform:uppercase;
 	line-height:25px;
-	margin-bottom:20px;
+	margin-bottom:90px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
     text-align: center;
+
 }
 .link:hover {
 	text-decoration:none;
@@ -185,10 +187,11 @@ color: #F5A62E;
 	box-shadow:0 0px 0px 0px #fff;
 	position:relative;
 	background:#fff;
+
 }
 .main-nav{
 	text-align:center;
-	margin:10px 0 0px;
+	margin:5px 0 0px;
     margin-left: -60px;
 	padding:0;
 	list-style:none;
@@ -217,11 +220,11 @@ color: #F5A62E;
 }
 
 .small-logo{ 
-    align-items: center;
+    align-items: center; 
 }
 
 .main-section{
-	padding:25px 0 110px;
+	padding:25px 0 30px;
 }
 
 
@@ -252,12 +255,14 @@ color: #F5A62E;
 	background:#fafafa;
 }
 
+
+
 /*features area*/
 .features img{
 	margin:auto;
 	display: block;
 	margin-bottom: 50px;
-   
+  
 }
 .features i.fa{
 	font-size: 25px;
@@ -404,8 +409,8 @@ color: #F5A62E;
 .Portfolio-box{
 	text-align:center;
 	margin-bottom:30px;
-	height:365px;
-	width:350px;
+	height:270px;
+	width:360px;
 	overflow:hidden;
 	float:left;
 	padding:0;
@@ -415,6 +420,8 @@ color: #F5A62E;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;	
+    height: 200px;
+    width:360px;
 }
 
 .Portfolio-box img:hover {
@@ -447,12 +454,24 @@ img {
 
 .main-section.paddind{
 	padding-bottom:0px;
+
 }
+
+
 
 /* Clients
 ---------------------------------*/
 .client-part{
-	background:url(../img/section-bg1.jpg) top center no-repeat;
+	background:url(../img/Fotografia_Belem%2010.jpg)  center no-repeat;
+	background-size:cover;
+	padding:55px 10px;
+	text-align:center;
+    margin-top: 10px;
+   
+}
+
+.client-part1{
+	background:url(../img/Fotografia_Belem%2063.jpg)  bottom no-repeat;
 	background-size:cover;
 	padding:55px 10px;
 	text-align:center;
@@ -543,7 +562,7 @@ border: 2px solid #fff;
 	margin: 0 20px;
 }
 .main-section.team{
-	padding:30px 0;
+	padding:px 0;
 }
 .main-section.team h6{
 	margin-bottom:40px;
@@ -556,16 +575,15 @@ border: 2px solid #fff;
 }
 .flat .plan {
   border-radius: 6px;
-  list-style: none;
-  padding: inherit;
   margin: 0 0 15px;
   background: #bbb;
   text-align: center;
 
+
 }
 .flat .plan li {
   padding: 10px 15px;
-  color:darkgrey;
+    color:darkgrey;
   border-top: 1px solid #222;
   -webkit-transition: 300ms;
   transition: 300ms;
@@ -641,7 +659,7 @@ border: 2px solid #fff;
 	font-size: 15px;
 	font-weight:400;
 	float:left;
-	width:102px;
+	width:100px;
 	margin-right:12px;
 	line-height:28px;
 }
