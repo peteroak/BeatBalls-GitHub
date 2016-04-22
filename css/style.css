@@ -471,11 +471,11 @@ img {
 }
 
 .client-part1{
-	background:url(../img/Fotografia_Belem%2063.jpg)  bottom no-repeat;
+	background:url(../img/banner.jpg)  center  no-repeat;
 	background-size:cover;
-	padding:55px 10px;
+	padding:85px 10px;
 	text-align:center;
-    margin-top: -20px;
+    margin-top: -10px;
    
 }
 .client-part-haead{
@@ -625,10 +625,11 @@ border: 2px solid #fff;
 /* Talk Business
 ---------------------------------*/
 .business-talking{
-	background:url(../img/section-bg2.jpg) top center no-repeat;
+	background:url(../img/site%201.jpg) top center no-repeat;
 	background-size:cover;
 	padding:60px 0 10px;
 	text-align:center;
+    
 }
 .business-talking h2{
 	font-family: 'Montserrat', sans-serif;
@@ -774,11 +775,11 @@ border: 2px solid #fff;
 ---------------------------------*/
 
 .footer{
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:35px 0 35px;
+	background-color: black;
+	padding:3px 0 3px;
 }
 .footer-logo{
-	margin:15px auto 35px;
+	margin:10px auto 20px;
 	width: 76px;
 }
 .copyright{
