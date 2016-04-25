@@ -63,6 +63,7 @@ body {
 	margin:0;
     text-align: justify;
 }
+
 h2{
 	font-size:34px;
 	color:#222222;
@@ -102,7 +103,9 @@ p{
 	background-color: #FFFFFF; 
     height: 100%;
     width: 100%;
-    background: url(../img/site%201.jpg)  no-repeat ;
+    background: url(../img/site%201.jpg) no-repeat;
+ 
+    
 }
 .logo{
 	width:430px;
@@ -225,6 +228,14 @@ color: #F5A62E;
 
 .main-section{
 	padding:25px 0 30px;
+}
+
+video {
+    width: 50%;
+    height:auto;
+    display: block;
+    margin: 0 auto;
+
 }
 
 
