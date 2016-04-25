@@ -231,9 +231,8 @@ color: #F5A62E;
 	padding:25px 0 30px;
 }
 
-video {
-    width: 80%;
-    height:auto;
+iframe {
+   
     display: block;
     margin: 0 auto;
     padding-top: 10px;
