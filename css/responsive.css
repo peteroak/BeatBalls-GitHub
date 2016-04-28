@@ -38,6 +38,7 @@
 	.main-nav li a{ padding:8px 15px;}
 	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
 	.Portfolio-box{ height:250px;}*/
+     
 	
 	 
 	
@@ -83,6 +84,9 @@
 	.main-section.contact{ background-size:contain;}
 	.Portfolio-nav li a{ padding:5px 16px;}
 	.Portfolio-nav li{ display:block;}
+    .iframe{ display: block; width: inherit; margin: 0 auto;
+    padding-top: 10px;}
+
         
 	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
 	.isotope-item{ width:300px; margin:0px auto;}
