@@ -84,7 +84,7 @@
 	.main-section.contact{ background-size:contain;}
 	.Portfolio-nav li a{ padding:5px 16px;}
 	.Portfolio-nav li{ display:block;}
-    .iframe{ display: block; width: inherit; margin: 0 auto;
+    .iframe{ display: block; width: auto; margin: 0 auto;
     padding-top: 10px;}
 
         
