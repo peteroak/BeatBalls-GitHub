@@ -884,4 +884,13 @@ border: 2px solid #fff;
 	-webkit-animation-delay: 1.2s; 
 }
 
+/************************************
+08)Section 3
+*************************************/
+.section3-background{ background: url(../img/site%201.jpg) bottom ;width: 100%;}
+.section-3-box{padding:40px 0; text-align:center;}
+.section-3-box figure{color:#f2a736; margin: 10px 0;} 
+.section-3-box h3{ font-size:30px; color:#fff;}
+.section-3-box h4{ font-size:15px; color:#fafafa; margin-bottom:0px;}
+
 

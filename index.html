@@ -270,12 +270,51 @@ drift.load('9rrb9s6atb6d');
    
 
 
-<section class="main-section client-part1" id="client"><!--main-section client-part-start-->
+<!--
+
+<section class="main-section client-part1" id="client">
 	<div class="container">
             	<h class="client-part-haead wow fadeInDown delay-05"> </h>
     </div>
                 
-</section><!--main-section client-part-end-->
+</section>
+    
+    -->
+    
+     <section id="section3" class="section-margine section3-background">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-lg-3">
+        <div class="section-3-box">
+          <figure><i class="fa fa-child fa-2x"></i></figure>
+          <h3><span class="counter">300</span>+</h3>
+          <h4>Clientes Satisfeitos</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-3">
+        <div class="section-3-box">
+          <figure><i class="fa fa-clock-o fa-2x"></i></figure>
+          <h3><span class="counter">500</span>+</h3>
+          <h4>Horas de Bubble Football</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-3">
+        <div class="section-3-box">
+          <figure><i class="fa fa-users fa-2x"></i></figure>
+          <h3><span class="counter">100</span>+</h3>
+          <h4>Festas de Aniversário</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-3">
+        <div class="section-3-box">
+          <figure><i class="fa fa-bolt fa-2x"></i></figure>
+          <h3><span class="counter">1000</span>+</h3>
+          <h4>Cambalhotas Dadas</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -665,6 +704,19 @@ $(window).load(function(){
   ga('create', 'UA-76551505-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+   <script> 
+    $('.counter').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 2000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
 </script>
 </body>
 </html>
