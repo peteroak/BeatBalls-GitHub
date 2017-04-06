@@ -888,18 +888,11 @@ border: 2px solid #fff;
 
 
 
-
-.video-container {
-overflow: hidden;
-position: relative;
-width:100%;
-height: 10%;
+iframe {
    
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+
 }
 
-.video-container::after {
-padding-top: 4.25%;
-/* 16:9 ratio */
-display: block;
-content: '';
-}
