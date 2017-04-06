@@ -231,13 +231,6 @@ color: #F5A62E;
 	padding:25px 0 30px;
 }
 
-iframe {
-   
-    display: block;
-    margin: 0 auto;
-    padding-top: 10px;
-
-}
 
 
 /* Services
@@ -893,4 +886,19 @@ border: 2px solid #fff;
 .section-3-box h3{ font-size:30px; color:#fff;}
 .section-3-box h4{ font-size:15px; color:#fafafa; margin-bottom:0px;}
 
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+
+
+iframe {
+   
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+
+}
 
