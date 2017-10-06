@@ -104,19 +104,30 @@ p{
 	margin:0;
 }
 
+a1{
+	color:#213E7D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a1:hover{
+	color:#F5A62E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 /* Header Styles
 ---------------------------------*/
 
 .header{
 	text-align:center;
 	background-color: #FFFFFF; 
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vu;
     background: url(../img/Fotografia_Belem%206_mini_mini_mini.jpg)  no-repeat;
-   
+    }
+    
  
     
-}
 .logo{
 	width:430px;
 	margin:0 auto 10px;
