@@ -131,7 +131,7 @@ a:hover{
 .logo{
 	width:430px;
 	margin:0 auto 10px;
-    padding-top: 125px;
+    padding-top: 10%;
 }
 .header h1{
 	font-family: 'Montserrat',sans-serif;
