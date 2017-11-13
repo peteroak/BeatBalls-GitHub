@@ -91,6 +91,17 @@ h3{
 	text-transform:full-width;
 	font-weight:400;
 }
+
+h33{
+	font-family: 'Montserrat', sans-serif;
+	color:#F5A62E;
+	font-size:14px;
+	margin:0 0 5px 0;
+	text-transform:full-width;
+	font-weight:400;
+}
+
+
 h6{
 	font-size:16px;
 	color:#888888;
@@ -104,13 +115,15 @@ p{
 	margin:0;
 }
 
+
+
 a{
 	color:#213E7D;
     font-family: 'Montserrat', sans-serif;
 }
 
 a:hover{
-	color:#F5A62E;
+	color:#213E7D;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -196,6 +209,8 @@ color: #F5A62E;
 	color:#F5A62E !important;
 	background:#213E7D;
 }
+
+.amarelo { color:#F5A62E; }
 
 .link:active, .link:focus {
 	background: #F5A62E;
@@ -434,7 +449,7 @@ color: #F5A62E;
 .Portfolio-box{
 	text-align:center;
 	margin-bottom:30px;
-	height:270px;
+	height:290px;
 	width:360px;
 	overflow:hidden;
 	float:left;
