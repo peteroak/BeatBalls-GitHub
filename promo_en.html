@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>	
+
+.center {
+    height: 600px;
+    display:table;
+    width:100%;
+}
+.Centered {
+    height:100%;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+h2{
+	font-size:34px;
+	color:#222222;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	letter-spacing: -1px;
+	margin:0 0 15px 0;
+	text-align:center;
+	text-transform:uppercase;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color:#213E7D;
+	font-size:16px;
+	margin:-50px 0 0 0;
+	text-transform:full-width;
+	font-weight:700;
+}
+
+h33{
+	font-family: 'Montserrat', sans-serif;
+	color:#F5A62E;
+	font-size:14px;
+	margin:0 0 5px 0;
+	text-transform:full-width;
+	font-weight:400;
+}
+
+
+h6{
+	font-size:16px;
+	color:#888888;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	text-align:center;
+	margin:0 0 60px 0;
+}
+p{
+	line-height:24px;
+	margin:0;
+}
+.bold{
+	font-weight:700;
+}
+.fb_button
+{
+font-size:14px;
+font-family: 'Open Sans', sans-serif;
+}
+    
+     .input-btn{
+	width:175px;
+	height:50px;
+	background:#F5A62E;
+	border-radius:4px;
+	color:#213E7D;
+	font-size:14px;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+	border:0px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.input-btn:hover{
+	background: #213E7D;
+	color: #F5A62E;
+}
+</style>
+ <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+    <nav class="main-nav-outer" id="test"><!--main-nav-start-->
+	<div class="container">
+        
+        <ul class="main-nav">
+           <left> <li><a href="Eng.html">Return to Website</a></li></left>
+        </ul>
+        <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+    </div>
+</nav><!--main-nav-end-->
+<body>
+ 
+
+<div class="center">
+	<div class="Centered">
+	<img src="img/logo%20site.png">
+	<h2></h2>
+	<h2>Bubble Football</h2>
+    <h6>The game that will make you cry from laughing!</h6>
+
+	<h2></h2>
+	<h6>Your next game of Bubble Football will grant you a <span class="bold">discount</span>
+	</br>
+	<span class="bold">Share</span> our website with your friends on <span class="bold">Facebook</span> and get the Code.</h6>
+	<h2></h2>
+	<button id="myBtn" type="button"class="input-btn"><b>Share on Facebook</b></button>
+	<h2></h2>
+	<!-- div escondido do código -->
+	<div id="myCode" >
+	  <h6>PROMOTION CODE:</h6> 
+	  <h3>BEATBALLS10ABRIL</h3>
+	</div>
+	
+	</div>
+</div>
+	
+
+
+	<script>
+		var url ="https://www.facebook.com/sharer/sharer.php?u=beatballs.pt";
+		// o div onde está o código
+		var modal = document.getElementById('myCode');
+		modal.style.display = "none";	
+		// o botão que vai mostrar o div do código
+		var btn = document.getElementById("myBtn");
+
+		// quando clicar no botão mostra o div e salta para pagina de pagina com focus 
+		btn.onclick = function () {
+			btn.style.display="none";
+			modal.style.display = "block";
+			var win = window.open(url, '_blank');
+			win.focus();
+			
+		}
+		     
+	</script>
+</body>
+</html>
