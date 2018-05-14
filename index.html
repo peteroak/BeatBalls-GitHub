@@ -916,6 +916,20 @@ $(window).load(function(){
   //_gaq.push([‘_trackPageview’, location.pathname + location.search + location.hash]);
 
 </script>
+    
+    <script>
+  window.addEventListener('load', function() {
+    jQuery('#contactos form').submit(function() {
+      ga('send', 'event', 'botao', 'click', 'contacto');
+    })
+    jQuery('[href*="mailto"]').click(function() {
+      ga('send', 'event', 'botao', 'click', jQuery(this).attr('href'));
+    })
+  })
+
+</script>
+
+    
    <script> 
     $('.counter').each(function () {
     $(this).prop('Counter',0).animate({
