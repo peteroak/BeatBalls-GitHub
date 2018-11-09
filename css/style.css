@@ -502,7 +502,7 @@ img {
 /* Clients
 ---------------------------------*/
 .client-part{
-	background:url(../img/Fotografia_Belem%2010.jpg)  center no-repeat;
+	background:url(../img/Fotografia_Belem%2010.jpeg)  center no-repeat;
 	background-size:cover;
 	padding:55px 10px;
 	text-align:center;
@@ -633,15 +633,23 @@ border: 2px solid #fff;
 }
 .flat .plan li.plan-price {
   border-top: 8;
+    text-align: center;
+      border-top: 0;
+}
+
+.plan-price {
+  font-size: 20px;
+    
+    
 }
 .flat .plan li.plan-name {
   border-radius: 6px 6px 6px 6px;
   padding: 15px;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 24px;
-  color: #213E7D;
+  color: #fafafa;
   background: #F5A62E;
-  margin-bottom: 30px;
+  margin-bottom: px;
   border-top: 0;
     text-align: center;
 }
@@ -657,7 +665,7 @@ border: 2px solid #fff;
 
 .flat .plan:hover li.plan-name {
   background: #213E7D;
-    color: #F5A62E
+    color: #fafafa
     }
 
 
@@ -689,7 +697,7 @@ border: 2px solid #fff;
 }
 
 .main-section.contact{
-	background:url(../img/bg-map.png) left 190px no-repeat;
+	background:url(../img/bg-map.png);
 }
 .contact-info-box{
 	font-size:15px;
@@ -951,4 +959,6 @@ left: 0;
 width: 100%;
 height: 100%;
 }
+
+
 
